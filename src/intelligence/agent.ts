@@ -7,7 +7,7 @@ class Agent {
     private public_code;
     private neuralNetwork = new NeuralNetwork();
     private myPositionBefore;
-    public life = 3;
+    public life = 0;
     private lifeBefore = 0;
 
     constructor(){
